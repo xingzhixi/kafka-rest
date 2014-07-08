@@ -1,7 +1,6 @@
 kafka-rest
 ==========
 
-利用java建立的kafka rest服务架构
-
-使用的技术包括：
-  jetty,servlet,kafka
+   java实现的kafka-rest框架
+    利用servlet实现了rest服务，只包括producer的实现，未考虑consumer。利用bin文件下的shell文件来执行。可以自己修改运行额端口号
+    注：kafka版本为0.8。
